@@ -1,5 +1,7 @@
 # SwatPlan Public
 
-Public information and policies for SwatPlan.
+The public website, support information, and privacy policy for SwatPlan.
 
-Privacy policy: https://middleclicker.github.io/SwatPlanPublic/
+- Website: https://middleclicker.github.io/SwatPlanPublic/
+- Support: https://middleclicker.github.io/SwatPlanPublic/#support
+- Privacy policy: https://middleclicker.github.io/SwatPlanPublic/#privacy

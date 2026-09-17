@@ -3,246 +3,305 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for the SwatPlan iOS app.">
-  <title>SwatPlan Privacy Policy</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --canvas: #f5f3ed;
-      --card: #ffffff;
-      --ink: #202528;
-      --muted: #656b6d;
-      --accent: #e96154;
-      --sun: #ffc647;
-      --line: #e8e5dd;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background: var(--canvas);
-      color: var(--ink);
-      font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont,
-        "Segoe UI", sans-serif;
-      line-height: 1.65;
-    }
-
-    main {
-      width: min(760px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 64px 0;
-    }
-
-    header,
-    article {
-      background: var(--card);
-      border: 1px solid rgba(255, 255, 255, 0.9);
-      border-radius: 28px;
-      box-shadow: 0 18px 50px rgba(32, 37, 40, 0.07);
-    }
-
-    header {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      margin-bottom: 18px;
-      padding: 28px;
-    }
-
-    .mark {
-      display: grid;
-      width: 64px;
-      height: 64px;
-      flex: 0 0 64px;
-      place-items: center;
-      border-radius: 50%;
-      background: var(--sun);
-      font-size: 27px;
-      font-weight: 800;
-    }
-
-    .eyebrow {
-      margin: 0 0 3px;
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(28px, 6vw, 42px);
-      line-height: 1.15;
-      letter-spacing: -0.03em;
-    }
-
-    .effective-date {
-      margin: 6px 0 0;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    article {
-      padding: 34px;
-    }
-
-    h2 {
-      margin: 32px 0 8px;
-      font-size: 20px;
-      line-height: 1.3;
-    }
-
-    h2:first-of-type {
-      margin-top: 24px;
-    }
-
-    p,
-    ul {
-      margin: 0 0 14px;
-    }
-
-    ul {
-      padding-left: 22px;
-    }
-
-    .summary {
-      margin: 0;
-      padding: 18px 20px;
-      border-left: 5px solid var(--accent);
-      border-radius: 14px;
-      background: rgba(233, 97, 84, 0.08);
-      font-weight: 650;
-    }
-
-    a {
-      color: #a43c34;
-      font-weight: 650;
-      text-underline-offset: 3px;
-    }
-
-    footer {
-      padding: 24px 8px 0;
-      color: var(--muted);
-      text-align: center;
-      font-size: 13px;
-    }
-
-    @media (max-width: 520px) {
-      main {
-        padding: 24px 0;
-      }
-
-      header {
-        align-items: flex-start;
-        padding: 22px;
-      }
-
-      .mark {
-        width: 52px;
-        height: 52px;
-        flex-basis: 52px;
-        font-size: 23px;
-      }
-
-      article {
-        padding: 24px;
-      }
-    }
-  </style>
+  <meta name="description" content="SwatPlan helps Swarthmore students build schedules, organize assignments, and keep their semester on track.">
+  <meta name="theme-color" content="#f7f3eb">
+  <title>SwatPlan — Your semester, planned</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <header>
-      <div class="mark" aria-hidden="true">S</div>
-      <div>
-        <p class="eyebrow">SwatPlan</p>
-        <h1>Privacy Policy</h1>
-        <p class="effective-date">Effective September 4, 2026</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="SwatPlan home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>SwatPlan</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy</a>
       </div>
-    </header>
+    </nav>
+  </header>
 
-    <article>
-      <p class="summary">
-        SwatPlan does not collect, transmit, sell, or share your personal data.
-        Your schedule, tasks, and preferences stay on your device.
-      </p>
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Made for Swarthmore students</p>
+        <h1>Your semester,<br><span>planned beautifully.</span></h1>
+        <p class="hero-lede">
+          Build a conflict-free course schedule, keep assignments organized, and see
+          exactly what comes next—all in one private, focused iPhone app.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#features">Explore SwatPlan</a>
+          <a class="button button-secondary" href="#support">Get support</a>
+        </div>
+        <ul class="trust-list" aria-label="SwatPlan highlights">
+          <li><span aria-hidden="true">✓</span> No account required</li>
+          <li><span aria-hidden="true">✓</span> Data stays on your device</li>
+          <li><span aria-hidden="true">✓</span> Built for iPhone</li>
+        </ul>
+      </div>
 
-      <h2>Information stored on your device</h2>
-      <p>
-        SwatPlan stores the information you enter or select so the app can remember
-        your setup between launches. This may include:
-      </p>
-      <ul>
-        <li>Your selected courses and schedule</li>
-        <li>Your tasks, due dates, and scheduled work times</li>
-        <li>Your display, ranking, and reminder preferences</li>
-        <li>Your blocked-time preferences</li>
-      </ul>
-      <p>
-        This information is stored locally on your device. SwatPlan does not operate
-        an account system or upload this information to a developer-controlled server.
-      </p>
+      <div class="phone-stage" aria-label="A preview of the SwatPlan weekly schedule">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="phone">
+          <div class="phone-top">
+            <span>9:41</span>
+            <span class="dynamic-island" aria-hidden="true"></span>
+            <span aria-hidden="true">● ◒</span>
+          </div>
+          <div class="app-header">
+            <div>
+              <span class="app-kicker">WEEK AT A GLANCE</span>
+              <strong>Good morning</strong>
+            </div>
+            <span class="gear" aria-hidden="true">⚙</span>
+          </div>
+          <div class="week-switch" aria-label="Schedule view selector">
+            <span>Agenda</span>
+            <span class="selected">Week</span>
+          </div>
+          <div class="week-meta">
+            <button type="button" aria-label="Previous week">‹</button>
+            <strong>Sep 14–20</strong>
+            <button type="button" aria-label="Next week">›</button>
+          </div>
+          <div class="calendar" aria-hidden="true">
+            <div class="times">
+              <span>9 AM</span><span>10</span><span>11</span><span>12</span><span>1 PM</span><span>2</span><span>3</span>
+            </div>
+            <div class="day-column">
+              <b>M</b>
+              <span class="class-block coral block-a"><small>9:00</small>CPSC 035</span>
+              <span class="class-block blue block-b"><small>11:30</small>MATH 027</span>
+              <span class="class-block gold block-c"><small>1:15</small>PHIL 001</span>
+            </div>
+            <div class="day-column">
+              <b>T</b>
+              <span class="class-block green block-d"><small>9:55</small>ECON 001</span>
+              <span class="class-block plum block-e"><small>3:45</small>CPSC 035</span>
+            </div>
+            <div class="day-column">
+              <b>W</b>
+              <span class="class-block coral block-a"><small>9:00</small>CPSC 035</span>
+              <span class="class-block blue block-b"><small>11:30</small>MATH 027</span>
+              <span class="class-block gold block-c"><small>1:15</small>PHIL 001</span>
+            </div>
+            <div class="day-column">
+              <b>Th</b>
+              <span class="class-block green block-d"><small>9:55</small>ECON 001</span>
+            </div>
+            <div class="day-column">
+              <b>F</b>
+              <span class="class-block blue block-f"><small>10:30</small>MATH 027</span>
+              <span class="class-block plum block-e"><small>3:45</small>CPSC 035</span>
+            </div>
+          </div>
+          <div class="tab-bar" aria-hidden="true">
+            <span class="active">▣<small>Schedule</small></span>
+            <span>✓<small>Tasks</small></span>
+            <span>⌖<small>Map</small></span>
+          </div>
+        </div>
+        <div class="widget-card">
+          <div class="widget-top"><span>● IN CLASS</span><b>42:18</b></div>
+          <strong>CPSC 035</strong>
+          <div class="progress"><span></span></div>
+          <small>⌖ Singer Hall 034/035</small>
+        </div>
+      </div>
+    </section>
 
-      <h2>Notifications</h2>
-      <p>
-        If you enable class reminders, SwatPlan asks iOS to schedule notifications on
-        your device. These are local notifications; SwatPlan does not use a remote push
-        notification service. You can change notification permission at any time in
-        iOS Settings.
-      </p>
+    <section class="section shell" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">One semester command center</p>
+        <h2>Less schedule wrangling.<br>More time for everything else.</h2>
+        <p>SwatPlan brings course planning and day-to-day organization together without turning either into a chore.</p>
+      </div>
 
-      <h2>External links</h2>
-      <p>
-        SwatPlan includes optional links to external services, including Google Maps,
-        Swarthmore College course information, and Rate My Professors. When you choose
-        one of these links, the external service may process information under its own
-        privacy policy. SwatPlan does not receive data about your activity on those
-        services.
-      </p>
+      <div class="feature-grid">
+        <article class="feature-card feature-wide accent-coral">
+          <div class="feature-icon" aria-hidden="true">▦</div>
+          <div>
+            <h3>Find a schedule that fits</h3>
+            <p>Compare conflict-free combinations and rank them by weekly balance, professor ratings, and the times you prefer to be in class.</p>
+          </div>
+          <div class="mini-ranking" aria-hidden="true">
+            <span><b>01</b><i style="--score: 92%"></i><em>92</em></span>
+            <span><b>02</b><i style="--score: 81%"></i><em>81</em></span>
+            <span><b>03</b><i style="--score: 74%"></i><em>74</em></span>
+          </div>
+        </article>
 
-      <h2>Analytics, advertising, and tracking</h2>
-      <p>
-        SwatPlan does not include third-party advertising or analytics SDKs and does
-        not track you across apps or websites.
-      </p>
+        <article class="feature-card accent-blue">
+          <div class="feature-icon" aria-hidden="true">✓</div>
+          <h3>Tasks that know your courses</h3>
+          <p>Organize work by class, add due dates and study blocks, and place timed tasks directly on your calendar.</p>
+        </article>
 
-      <h2>Data retention and deletion</h2>
-      <p>
-        Your information remains on your device until you remove it using the app’s
-        controls or uninstall the app. You can disable pending class reminders in the
-        app or in iOS Settings.
-      </p>
+        <article class="feature-card dark-card">
+          <div class="feature-icon" aria-hidden="true">◷</div>
+          <h3>Your next class at a glance</h3>
+          <p>Home Screen and Lock Screen widgets show what is happening now, how much time remains, and what comes next.</p>
+        </article>
 
-      <h2>Children’s privacy</h2>
-      <p>
-        SwatPlan is intended for college students and is not directed to children
-        under 13. The app does not knowingly collect personal information from children.
-      </p>
+        <article class="feature-card accent-gold">
+          <div class="feature-icon" aria-hidden="true">♢</div>
+          <h3>Reminders that fit your day</h3>
+          <p>Choose how early to be notified before class and get a morning summary of tasks that are still waiting.</p>
+        </article>
 
-      <h2>Changes to this policy</h2>
-      <p>
-        This policy may be updated if SwatPlan’s features or data practices change.
-        Updates will be posted on this page with a revised effective date.
-      </p>
+        <article class="feature-card accent-green">
+          <div class="feature-icon" aria-hidden="true">⇩</div>
+          <h3>Bring an existing schedule</h3>
+          <p>Enter registered sections manually or use on-device screenshot recognition, then review matches before saving.</p>
+        </article>
 
-      <h2>Contact</h2>
-      <p>
-        For privacy questions, open an issue in the
-        <a href="https://github.com/middleclicker/SwatPlanPublic/issues">SwatPlan public repository</a>.
-      </p>
+        <article class="feature-card feature-wide accent-plum">
+          <div class="feature-icon" aria-hidden="true">◫</div>
+          <div>
+            <h3>Agenda when you need focus. Week when you need context.</h3>
+            <p>Move between a clean daily list and the full week, look ahead to next week, hide weekends, and open a course for its details and tasks.</p>
+          </div>
+          <div class="mini-agenda" aria-hidden="true">
+            <span><time>9:00</time><b>CPSC 035</b><small>Singer Hall</small></span>
+            <span><time>11:30</time><b>MATH 027</b><small>Science Center</small></span>
+            <span><time>1:15</time><b>PHIL 001</b><small>Kohlberg Hall</small></span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      <h2>Independent project</h2>
-      <p>
-        SwatPlan is an independent project and is not affiliated with or endorsed by
-        Swarthmore College, Google, or Rate My Professors.
-      </p>
-    </article>
+    <section class="section flow-section" id="how-it-works">
+      <div class="shell">
+        <div class="section-heading centered">
+          <p class="eyebrow">From options to an actual week</p>
+          <h2>Get set up in three steps.</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-number">1</span>
+            <h3>Choose your starting point</h3>
+            <p>Build a new timetable or bring in the schedule you already registered for.</p>
+          </li>
+          <li>
+            <span class="step-number">2</span>
+            <h3>Make it yours</h3>
+            <p>Set time preferences, blocked periods, ranking priorities, colors, and reminders.</p>
+          </li>
+          <li>
+            <span class="step-number">3</span>
+            <h3>Run your semester</h3>
+            <p>Follow each day, manage course tasks, and keep the next class visible from your Lock Screen.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-    <footer>© 2026 SwatPlan</footer>
+    <section class="section shell support-section" id="support">
+      <div class="support-intro">
+        <p class="eyebrow">Support</p>
+        <h2>Questions? Start here.</h2>
+        <p>SwatPlan is designed to work without an account or complicated setup. These answers cover the most common questions.</p>
+        <a class="button button-primary" href="https://github.com/middleclicker/SwatPlanPublic/issues">Report a problem</a>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Where is my schedule stored?</summary>
+          <p>Your saved schedule, tasks, and preferences are stored on your device. SwatPlan does not operate a user-account server.</p>
+        </details>
+        <details>
+          <summary>How do I add a widget?</summary>
+          <p>Long-press your Home Screen or Lock Screen, choose Customize or Add Widget, then select SwatPlan and the Class Progress widget.</p>
+        </details>
+        <details>
+          <summary>Why does a course or section look incorrect?</summary>
+          <p>Course information can change. Please open a public-repository issue with the course code, section, and the correction needed.</p>
+        </details>
+        <details>
+          <summary>Does SwatPlan register me for courses?</summary>
+          <p>No. SwatPlan helps you plan and organize a timetable, but official registration still happens through Swarthmore’s registration system.</p>
+        </details>
+        <details>
+          <summary>Is SwatPlan an official Swarthmore app?</summary>
+          <p>No. SwatPlan is an independent student-focused project and is not affiliated with or endorsed by Swarthmore College.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section privacy-section" id="privacy">
+      <div class="shell privacy-shell">
+        <aside class="privacy-heading">
+          <p class="eyebrow">Privacy policy</p>
+          <h2>Your plans are yours.</h2>
+          <p class="effective-date">Effective September 4, 2026</p>
+          <p class="privacy-summary">SwatPlan does not collect, transmit, sell, or share your personal data. Your schedule, tasks, and preferences stay on your device.</p>
+        </aside>
+
+        <article class="policy">
+          <section>
+            <h3>Information stored on your device</h3>
+            <p>SwatPlan stores the information you enter or select so the app can remember your setup between launches. This may include:</p>
+            <ul>
+              <li>Your selected courses and schedule</li>
+              <li>Your tasks, due dates, and scheduled work times</li>
+              <li>Your display, ranking, and reminder preferences</li>
+              <li>Your blocked-time preferences</li>
+            </ul>
+            <p>This information is stored locally on your device. SwatPlan does not operate an account system or upload this information to a developer-controlled server.</p>
+          </section>
+          <section>
+            <h3>Notifications</h3>
+            <p>If you enable class or task reminders, SwatPlan asks iOS to schedule notifications on your device. These are local notifications; SwatPlan does not use a remote push-notification service. You can change notification permission at any time in iOS Settings.</p>
+          </section>
+          <section>
+            <h3>External links</h3>
+            <p>SwatPlan includes optional links to external services, including Google Maps, Swarthmore College course information, and Rate My Professors. When you choose one of these links, the external service may process information under its own privacy policy. SwatPlan does not receive data about your activity on those services.</p>
+          </section>
+          <section>
+            <h3>Analytics, advertising, and tracking</h3>
+            <p>SwatPlan does not include third-party advertising or analytics SDKs and does not track you across apps or websites.</p>
+          </section>
+          <section>
+            <h3>Data retention and deletion</h3>
+            <p>Your information remains on your device until you remove it using the app’s controls or uninstall the app. You can disable pending reminders in the app or in iOS Settings.</p>
+          </section>
+          <section>
+            <h3>Children’s privacy</h3>
+            <p>SwatPlan is intended for college students and is not directed to children under 13. The app does not knowingly collect personal information from children.</p>
+          </section>
+          <section>
+            <h3>Changes to this policy</h3>
+            <p>This policy may be updated if SwatPlan’s features or data practices change. Updates will be posted on this page with a revised effective date.</p>
+          </section>
+          <section>
+            <h3>Contact and independence</h3>
+            <p>For privacy questions, open an issue in the <a href="https://github.com/middleclicker/SwatPlanPublic/issues">SwatPlan public repository</a>. SwatPlan is an independent project and is not affiliated with or endorsed by Swarthmore College, Google, or Rate My Professors.</p>
+          </section>
+        </article>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>SwatPlan</span>
+      </a>
+      <p>Plan your courses. Organize your time. Keep your semester moving.</p>
+      <div class="footer-links">
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy</a>
+        <a href="https://github.com/middleclicker/SwatPlanPublic">GitHub</a>
+      </div>
+      <small>© 2026 SwatPlan. Independent and not affiliated with Swarthmore College.</small>
+    </div>
+  </footer>
 </body>
 </html>
