@@ -17,14 +17,14 @@ Keep the public App Store release separate from development updates. As of Octob
 
 ## Mac preview
 
-`downloads/SwatPlan-Mac-1.2.3.zip` contains version 1.2.3 (build 7), copied from the app repository's signed Mac package. It is a universal Apple silicon/Intel Mac Catalyst build requiring macOS 15 or later.
+`downloads/SwatPlan-Mac-1.3.1.zip` contains version 1.3.1 (build 9), copied from the app repository's signed Mac package. It is a universal Apple silicon/Intel Mac Catalyst build requiring macOS 15 or later.
 
 **This is an Apple Development build for registered test Macs, not a notarized release for general distribution.** Preserve this limitation next to the download button until a public distribution build replaces it.
 
 For a new preview, run `Scripts/package_mac.sh` in the private app repository, verify the signature and provisioning, copy the versioned ZIP into `downloads/`, and update the download filename, version, size, and notes. Generate the checksum from this repository root:
 
 ```sh
-shasum -a 256 downloads/SwatPlan-Mac-1.2.3.zip > downloads/SwatPlan-Mac-1.2.3.zip.sha256
+shasum -a 256 downloads/SwatPlan-Mac-1.3.1.zip > downloads/SwatPlan-Mac-1.3.1.zip.sha256
 ```
 
 Do not add private app source, tokens, sync documents, or local planner data to this public repository.
