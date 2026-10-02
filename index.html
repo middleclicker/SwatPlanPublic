@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SwatPlan helps Swarthmore students build schedules, organize assignments, and keep their semester on track.">
+  <meta name="description" content="Plan your Swarthmore semester with SwatPlan. Download the iPhone app, explore the Mac preview, and follow new features for iPad and Mac.">
   <meta name="theme-color" content="#f7f3eb">
   <title>SwatPlan — Your semester, planned</title>
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,14 +16,14 @@
   <header class="site-header">
     <nav class="nav shell" aria-label="Main navigation">
       <a class="brand" href="#top" aria-label="SwatPlan home">
-        <span class="brand-mark" aria-hidden="true">S</span>
+        <img class="brand-mark" src="assets/app-icon.png" width="37" height="37" alt="">
         <span>SwatPlan</span>
       </a>
       <div class="nav-links">
         <a href="#features">Features</a>
-        <a href="#how-it-works">How it works</a>
+        <a href="#changelog">Changelog</a>
         <a href="#support">Support</a>
-        <a href="#privacy">Privacy</a>
+        <a class="nav-download" href="#download">Get SwatPlan <span aria-hidden="true">↗</span></a>
       </div>
     </nav>
   </header>
@@ -29,24 +31,25 @@
   <main id="main">
     <section class="hero shell" id="top">
       <div class="hero-copy">
+        <a class="update-pill" href="#changelog"><span class="status-dot" aria-hidden="true"></span> In development: iPad, Mac &amp; sync <span aria-hidden="true">↗</span></a>
         <p class="eyebrow">Made for Swarthmore students</p>
         <h1>Your semester,<br><span>planned beautifully.</span></h1>
         <p class="hero-lede">
           Build a conflict-free course schedule, keep assignments organized, and see
-          exactly what comes next—all in one private, focused iPhone app.
+          exactly what comes next. A little more calm for your semester, on your iPhone—and now growing to iPad and Mac.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#features">Explore SwatPlan</a>
-          <a class="button button-secondary" href="#support">Get support</a>
+          <a class="button button-primary" href="#download">Get SwatPlan <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#features">Take a look around</a>
         </div>
         <ul class="trust-list" aria-label="SwatPlan highlights">
           <li><span aria-hidden="true">✓</span> No account required</li>
-          <li><span aria-hidden="true">✓</span> Data stays on your device</li>
-          <li><span aria-hidden="true">✓</span> Built for iPhone</li>
+          <li><span aria-hidden="true">✓</span> Local by default</li>
+          <li><span aria-hidden="true">✓</span> Made for Swarthmore</li>
         </ul>
       </div>
 
-      <div class="phone-stage" aria-label="A preview of the SwatPlan weekly schedule">
+      <div class="phone-stage" role="img" aria-label="Illustrative SwatPlan schedule and Class Progress widget preview">
         <div class="glow glow-one"></div>
         <div class="glow glow-two"></div>
         <div class="phone">
@@ -62,14 +65,14 @@
             </div>
             <span class="gear" aria-hidden="true">⚙</span>
           </div>
-          <div class="week-switch" aria-label="Schedule view selector">
+          <div class="week-switch" aria-hidden="true">
             <span>Agenda</span>
             <span class="selected">Week</span>
           </div>
           <div class="week-meta">
-            <button type="button" aria-label="Previous week">‹</button>
-            <strong>Sep 14–20</strong>
-            <button type="button" aria-label="Next week">›</button>
+            <span aria-hidden="true">‹</span>
+            <strong>Sep 28–Oct 4</strong>
+            <span aria-hidden="true">›</span>
           </div>
           <div class="calendar" aria-hidden="true">
             <div class="times">
@@ -117,11 +120,17 @@
       </div>
     </section>
 
+    <section class="platform-strip shell" aria-label="Supported platforms">
+      <div><span class="platform-name">iPhone</span><span>Your day, in your pocket.</span></div>
+      <div><span class="platform-name">iPad</span><span>Dedicated app in development.</span></div>
+      <div><span class="platform-name">Mac</span><span>Development preview available.</span></div>
+    </section>
+
     <section class="section shell" id="features">
       <div class="section-heading">
         <p class="eyebrow">One semester command center</p>
         <h2>Less schedule wrangling.<br>More time for everything else.</h2>
-        <p>SwatPlan brings course planning and day-to-day organization together without turning either into a chore.</p>
+        <p>SwatPlan brings course planning and day-to-day organization together. Explore the planner below, including new features in development builds that are still coming to the App Store.</p>
       </div>
 
       <div class="feature-grid">
@@ -141,25 +150,37 @@
         <article class="feature-card accent-blue">
           <div class="feature-icon" aria-hidden="true">✓</div>
           <h3>Tasks that know your courses</h3>
-          <p>Organize work by class, add due dates and study blocks, and place timed tasks directly on your calendar.</p>
+          <p>Organize work by class and colorful tags, add due dates and study blocks, and extend a deadline with one tap. Timed tasks appear on your calendar.</p>
         </article>
 
         <article class="feature-card dark-card">
           <div class="feature-icon" aria-hidden="true">◷</div>
           <h3>Your next class at a glance</h3>
-          <p>Home Screen and Lock Screen widgets show what is happening now, how much time remains, and what comes next.</p>
+          <p>Class Progress widgets show what is happening now and what comes next. Add them to your iPhone or iPad screens, or your Mac desktop.</p>
         </article>
 
         <article class="feature-card accent-gold">
           <div class="feature-icon" aria-hidden="true">♢</div>
           <h3>Reminders that fit your day</h3>
-          <p>Choose how early to be notified before class and get a morning summary of tasks that are still waiting.</p>
+          <p>Get a heads-up before class and a morning task summary. On iPhone and iPad with iOS 26, optional wake-up alarms follow your first class.</p>
         </article>
 
         <article class="feature-card accent-green">
           <div class="feature-icon" aria-hidden="true">⇩</div>
           <h3>Bring an existing schedule</h3>
           <p>Enter registered sections manually or use on-device screenshot recognition, then review matches before saving.</p>
+        </article>
+
+        <article class="feature-card accent-plum">
+          <div class="feature-icon" aria-hidden="true">↗</div>
+          <h3>Know where your grades stand</h3>
+          <p>Track CS35, Math 27, Econ 1, and Philosophy 1T with course-specific grading guides, assessment weights, and progress toward your goals.</p>
+        </article>
+
+        <article class="feature-card accent-sand">
+          <div class="feature-icon" aria-hidden="true">⇄</div>
+          <h3>Your devices, on the same page</h3>
+          <p>Choose optional iCloud or private GitHub sync for your timetable, tasks, tags, grades, and blocked times. Your planner works locally with sync off.</p>
         </article>
 
         <article class="feature-card feature-wide accent-plum">
@@ -197,9 +218,104 @@
           <li>
             <span class="step-number">3</span>
             <h3>Run your semester</h3>
-            <p>Follow each day, manage course tasks, and keep the next class visible from your Lock Screen.</p>
+            <p>Follow each day, manage course tasks, and keep your timetable close at hand.</p>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <section class="section shell download-section" id="download" aria-labelledby="download-title">
+      <div class="section-heading">
+        <p class="eyebrow">Get SwatPlan</p>
+        <h2 id="download-title">A home for your semester.<br>On your favorite screen.</h2>
+        <p>Choose your device to get started. Mobile releases and the Mac development preview are distributed separately.</p>
+      </div>
+      <div class="download-grid">
+        <article class="download-card mobile-download">
+          <div class="download-card-top"><img src="assets/app-icon.png" width="64" height="64" alt=""><span class="release-badge">iPhone · App Store</span></div>
+          <h3>Take your plans with you.</h3>
+          <p>Your course schedule and tasks, ready wherever your day takes you. Available now on the App Store for iPhone.</p>
+          <a class="button button-primary app-store-link" href="https://apps.apple.com/us/app/swatplan/id6808754828">Download on the App Store <span aria-hidden="true">↗</span></a>
+          <p class="download-meta">Current App Store release: 1.0.1 · iOS 18+<br>Free · Designed for iPhone</p>
+          <p class="download-note">The dedicated iPad app, widgets, grades, tags, and sync are in newer development builds. They are not included in the current App Store release.</p>
+        </article>
+        <article class="download-card mac-download">
+          <div class="download-card-top"><span class="device-icon" aria-hidden="true">▱</span><span class="release-badge">Mac development preview</span></div>
+          <h3>Give your week more room.</h3>
+          <p>A native Mac app with a resizable timetable, sidebar navigation, keyboard shortcuts, and desktop widgets.</p>
+          <p class="preview-notice"><strong>For registered test Macs only.</strong> This build uses Apple development signing and is not notarized for general distribution. It will not run on an unregistered Mac.</p>
+          <a class="button button-primary" href="downloads/SwatPlan-Mac-1.2.3.zip" download="SwatPlan-Mac-1.2.3.zip">Download Mac preview <span aria-hidden="true">↓</span></a>
+          <p class="download-meta">Version 1.2.3 · Build 7 · 6.8 MB ZIP<br>macOS 15+ · Apple silicon &amp; Intel</p>
+          <details class="install-details">
+            <summary>Installation &amp; download details</summary>
+            <p>On a Mac already registered with the developer, unzip the download, move SwatPlan to Applications, and open it. If macOS blocks the app, contact support before continuing. <a href="https://support.apple.com/en-us/102445">Apple explains its app security checks.</a></p>
+            <p>This preview was built on October 1, 2026. <a href="downloads/SwatPlan-Mac-1.2.3.zip.sha256" download>Download the SHA-256 checksum</a> to verify the archive.</p>
+          </details>
+        </article>
+      </div>
+      <p class="download-help">Need a hand getting started? <a href="#support">Find answers below</a> or <a href="https://github.com/middleclicker/SwatPlanPublic/issues">contact support</a>.</p>
+    </section>
+
+    <section class="section changelog-section" id="changelog" aria-labelledby="changelog-title">
+      <div class="shell changelog-shell">
+        <div class="changelog-intro">
+          <p class="eyebrow">Changelog</p>
+          <h2 id="changelog-title">A little better,<br>every update.</h2>
+          <p>What’s new, what’s improved, and the small things that make a busy semester easier.</p>
+          <span class="timeline-label">Development updates · Fall 2026</span>
+          <p class="changelog-note">These notes follow the app’s development. Check the App Store for the features included in your mobile release.</p>
+        </div>
+        <div class="release-timeline">
+          <article class="release-entry latest-entry">
+            <div class="release-date"><time datetime="2026-10-01">October 1, 2026</time><span class="release-badge">Latest development</span></div>
+            <h3>More screens. One semester.</h3>
+            <ul>
+              <li><strong>iPad and Mac support.</strong> Adaptive sidebars, resizable layouts, wider weekly calendars, and Mac keyboard shortcuts.</li>
+              <li><strong>Optional sync.</strong> Keep timetables, tasks, tags, grades, and blocked times in sync through iCloud or a private GitHub repository. Sync starts off.</li>
+              <li><strong>One-tap deadline extensions.</strong> Move an active task’s due date forward with +1 day while keeping its scheduled time.</li>
+              <li><strong>Easier GitHub setup.</strong> A guided walkthrough and clearer messages for connection and secure token storage problems.</li>
+            </ul>
+          </article>
+          <article class="release-entry">
+            <div class="release-date"><time datetime="2026-09-22">September 22, 2026</time></div>
+            <h3>See your progress. Sort your work.</h3>
+            <ul>
+              <li><strong>Course-specific grades.</strong> Track CS35 standards and labs, Math 27 assessments, Econ 1, and Philosophy 1T with detailed grading guides.</li>
+              <li><strong>Custom task tags.</strong> Create reusable color-coded tags, filter your to-do list, and keep tags in JSON and CSV imports and exports.</li>
+            </ul>
+          </article>
+          <article class="release-entry">
+            <div class="release-date"><time datetime="2026-09-16">September 16–17, 2026</time></div>
+            <h3>Your next class, a glance away.</h3>
+            <ul>
+              <li><strong>Class Progress widgets.</strong> Live class progress, remaining time, location, and the next class on Home and Lock Screens.</li>
+              <li><strong>Class-aware wake-up alarms.</strong> Optional iOS 26 alarms follow your earliest class, with a cutoff and adjustable lead time.</li>
+            </ul>
+          </article>
+          <details class="older-updates">
+            <summary>Earlier updates</summary>
+            <article class="release-entry">
+              <div class="release-date"><time datetime="2026-09-11">September 11–13, 2026</time></div>
+              <h3>A planner that feels like yours.</h3>
+              <ul>
+                <li>Four color palettes with matching dark themes and searchable, organized Settings.</li>
+                <li>Task statistics, PDF schedule sharing, JSON and CSV task imports, and customizable exports.</li>
+                <li>Morning task reminders, improved course search, and roomier Schedule and Tasks navigation.</li>
+                <li>A preview of the planned campus map. Walking directions are still in development.</li>
+              </ul>
+            </article>
+            <article class="release-entry">
+              <div class="release-date"><time datetime="2026-09-10">September 10, 2026</time></div>
+              <h3>Bring the schedule you already have.</h3>
+              <p>Choose a new timetable, enter your registered sections, or recognize a Banner screenshot on your device and review the matches before saving.</p>
+            </article>
+            <article class="release-entry">
+              <div class="release-date"><time datetime="2026-09-03">September 3–8, 2026</time></div>
+              <h3>From course choices to daily plans.</h3>
+              <p>Timed tasks on the calendar, course details, Maps links, next-week navigation, optional celebrations, and a more memory-efficient schedule solver.</p>
+            </article>
+          </details>
+        </div>
       </div>
     </section>
 
@@ -207,17 +323,29 @@
       <div class="support-intro">
         <p class="eyebrow">Support</p>
         <h2>Questions? Start here.</h2>
-        <p>SwatPlan is designed to work without an account or complicated setup. These answers cover the most common questions.</p>
+        <p>Start with a local planner, then add widgets, reminders, or optional sync when you want them. Here are answers to the most common questions.</p>
         <a class="button button-primary" href="https://github.com/middleclicker/SwatPlanPublic/issues">Report a problem</a>
       </div>
       <div class="faq-list">
         <details>
           <summary>Where is my schedule stored?</summary>
-          <p>Your saved schedule, tasks, and preferences are stored on your device. SwatPlan does not operate a user-account server.</p>
+          <p>Your saved timetable, tasks, tags, grades, and preferences are stored locally. If you enable sync in Settings, selected planner data is also stored in your private iCloud database or your own private GitHub repository. SwatPlan does not operate a user-account server.</p>
         </details>
         <details>
           <summary>How do I add a widget?</summary>
-          <p>Long-press your Home Screen or Lock Screen, choose Customize or Add Widget, then select SwatPlan and the Class Progress widget.</p>
+          <p>On iPhone or iPad, long-press your Home Screen and choose Add Widget, or customize your Lock Screen, then select SwatPlan. On Mac, use Edit Widgets on the desktop or in Notification Center and choose Class Progress.</p>
+        </details>
+        <details>
+          <summary>Why won’t the Mac preview open?</summary>
+          <p>The current download is a development build for Macs registered with the developer. It is not a notarized public release. An unregistered Mac cannot run it; <a href="https://github.com/middleclicker/SwatPlanPublic/issues">contact support</a> about testing availability.</p>
+        </details>
+        <details>
+          <summary>How do I sync between devices?</summary>
+          <p>Open Settings → Sync on each device. Choose iCloud using the same Apple Account, or follow the built-in GitHub guide to connect a private repository. Sync is off by default and checks for changes while the app is open. Appearance and reminder preferences stay local.</p>
+        </details>
+        <details>
+          <summary>Does the campus map have walking directions?</summary>
+          <p>The Map destination currently previews planned features. Building search, walking directions, and accessible routes are still in development.</p>
         </details>
         <details>
           <summary>Why does a course or section look incorrect?</summary>
@@ -239,8 +367,8 @@
         <aside class="privacy-heading">
           <p class="eyebrow">Privacy policy</p>
           <h2>Your plans are yours.</h2>
-          <p class="effective-date">Effective September 4, 2026</p>
-          <p class="privacy-summary">SwatPlan does not collect, transmit, sell, or share your personal data. Your schedule, tasks, and preferences stay on your device.</p>
+          <p class="effective-date">Updated October 1, 2026</p>
+          <p class="privacy-summary">Your planner stays on your device by default. Sync is optional and sends selected planner data only to the iCloud or private GitHub connection you choose. SwatPlan has no advertising or analytics SDKs.</p>
         </aside>
 
         <article class="policy">
@@ -249,15 +377,21 @@
             <p>SwatPlan stores the information you enter or select so the app can remember your setup between launches. This may include:</p>
             <ul>
               <li>Your selected courses and schedule</li>
-              <li>Your tasks, due dates, and scheduled work times</li>
+              <li>Your tasks, tags, due dates, and scheduled work times</li>
+              <li>Your grade entries and assessment scores</li>
               <li>Your display, ranking, and reminder preferences</li>
               <li>Your blocked-time preferences</li>
             </ul>
-            <p>This information is stored locally on your device. SwatPlan does not operate an account system or upload this information to a developer-controlled server.</p>
+            <p>This information is stored locally on your device. SwatPlan does not operate an account system or upload your planner to a developer-controlled server. Screenshot recognition runs on your device; screenshots are not uploaded for recognition.</p>
           </section>
           <section>
-            <h3>Notifications</h3>
-            <p>If you enable class or task reminders, SwatPlan asks iOS to schedule notifications on your device. These are local notifications; SwatPlan does not use a remote push-notification service. You can change notification permission at any time in iOS Settings.</p>
+            <h3>Optional iCloud and GitHub sync</h3>
+            <p>Sync starts disabled on every device. When you enable it, SwatPlan exchanges your timetable, tasks, tags, grade entries, and blocked times with either your private iCloud CloudKit database or a private GitHub repository you configure. The provider processes that information under its own privacy policy: <a href="https://www.apple.com/legal/privacy/">Apple</a> or <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>.</p>
+            <p>GitHub access tokens are stored in your device’s Keychain and are not included in synced planner data. Appearance, notification permissions, wake-up alarms, and reminder preferences stay local. Sync runs while the app is open, and you can turn it off in Settings.</p>
+          </section>
+          <section>
+            <h3>Notifications and alarms</h3>
+            <p>If you enable class or task reminders, SwatPlan asks the operating system to schedule local notifications. Optional wake-up alarms on iPhone and iPad use system alarm permission. SwatPlan does not use remote push notifications. You can change these permissions in your device’s Settings.</p>
           </section>
           <section>
             <h3>External links</h3>
@@ -269,11 +403,11 @@
           </section>
           <section>
             <h3>Data retention and deletion</h3>
-            <p>Your information remains on your device until you remove it using the app’s controls or uninstall the app. You can disable pending reminders in the app or in iOS Settings.</p>
+            <p>Use the app’s controls to remove local planner information and disable pending reminders. Turning sync off does not delete local information or existing remote copies. Manage iCloud copies and GitHub repository data through the respective provider; GitHub commit history can retain earlier planner data, including deleted items. Keep your sync repository private.</p>
           </section>
           <section>
             <h3>Children’s privacy</h3>
-            <p>SwatPlan is intended for college students and is not directed to children under 13. The app does not knowingly collect personal information from children.</p>
+            <p>SwatPlan is intended for college students and is not directed to children under 13. SwatPlan does not operate a service that collects children’s information.</p>
           </section>
           <section>
             <h3>Changes to this policy</h3>
@@ -291,14 +425,15 @@
   <footer class="footer">
     <div class="shell footer-inner">
       <a class="brand" href="#top">
-        <span class="brand-mark" aria-hidden="true">S</span>
+        <img class="brand-mark" src="assets/app-icon.png" width="37" height="37" alt="">
         <span>SwatPlan</span>
       </a>
       <p>Plan your courses. Organize your time. Keep your semester moving.</p>
       <div class="footer-links">
+        <a href="#download">Downloads</a>
+        <a href="#changelog">Changelog</a>
         <a href="#support">Support</a>
         <a href="#privacy">Privacy</a>
-        <a href="https://github.com/middleclicker/SwatPlanPublic">GitHub</a>
       </div>
       <small>© 2026 SwatPlan. Independent and not affiliated with Swarthmore College.</small>
     </div>
